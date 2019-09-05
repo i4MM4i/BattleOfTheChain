@@ -26,7 +26,7 @@ curl -H "Content-type:application/json" --data '{"peer" : "ws://localhost:6001"}
 curl -H "Content-type:application/json" --data '{"peer" : "ws://localhost:6002"}' http://localhost:3003/addPeer
 ```
 
-#### Then finally in another terminal you can use the following commands with curl:
+## Then finally in another terminal you can use the following commands with curl:
 
 
 #### Query peers
@@ -45,7 +45,7 @@ curl http://localhost:3001/blocks
 ```
 
 
-### Mine block
+#### Mine block
 ```
 curl -X POST http://localhost:3001/mineBlock
 ```
