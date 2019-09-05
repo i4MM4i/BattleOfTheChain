@@ -3,6 +3,9 @@ The blockchain is based on naivecoin, it has two available currencies which will
 
 Below is an example how to run and test the blockchain.
 
+#### Install necessary dependencies:
+npm install ws lodash ellpitic crypto-js body-parser mongoose
+
 ##### To start the first node:
 ```
 npm start OR HTTP_PORT=3001 P2P_PORT=6001
